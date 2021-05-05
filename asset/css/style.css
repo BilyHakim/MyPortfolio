@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Navbar */
+nav {
+  background: #581b98 !important;
+  border-bottom: 3px solid #000000;
+}
+
+/* .navbar-nav a {
+  text-align: center;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #fff !important;
+}
+/* Akhir Navbar */
+
+/* Header */
+header {
+  background-color: #581b98;
+  /* background-size: cover; */
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.description {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+/* Akhir Header */
+
+/* Section Blog */
+.blog {
+  background-color: #f3558e;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+/* Akhir Blog Section */
+
+/* Section Certificated */
+.certificated {
+  background-color: #581b98 !important;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.card-1 {
+  text-align: center;
+}
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+/* Akhir Section Certificated */
+
+/* Section Contact */
+.contact {
+  background-color: #f3558e;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.btn-kirim {
+  margin-bottom: 20px;
+}
+#status-messages {
+  margin-top: 0.7rem;
+  margin-bottom: 00.7rem;
+  padding: 1rem;
+}
+
+#status-messages.error {
+  background: #dc3545;
+  color: #fff;
+}
+
+#status-messages.success {
+  background: #28a745;
+  color: #fff;
+}
+/* Akhir Section Contact */
+
+/* Section Footer */
+.section-footer {
+  background-color: #581b98 !important;
+  border-top: 3px solid #000000;
+}
+
+.footer-text {
+  margin-top: 0;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+/* Akhir Section Footer */
+
+.btn-global {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  border: 3px solid #000000;
+  border-radius: 5px;
+}
+
+.btn-recent {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  border: 3px solid #000000;
+  border-radius: 5px;
+}
+
+/* icon social media */
+.card-footer {
+  display: grid;
+  place-items: center;
+}
+
+.wrapper .button {
+  /* display: inline-block; */
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 10px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+  width: 200px;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+  background: #4267b2;
+}
+.wrapper .button:nth-child(2):hover .icon {
+  background: #1da1f2;
+}
+.wrapper .button:nth-child(3):hover .icon {
+  background: #e1306c;
+}
+.wrapper .button:nth-child(4):hover .icon {
+  background: #ff0000;
+}
+
+.wrapper .button .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+  color: #fff;
+}
+.wrapper .button span a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span a {
+  color: #4267b2 !;
+}
+.wrapper .button:nth-child(2) span a {
+  color: #1da1f2;
+}
+.wrapper .button:nth-child(3) span a {
+  color: #e1306c;
+}
+.wrapper .button:nth-child(4) span a {
+  color: #ff0000;
+}
+/* Responsive Web */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    padding-top: 65px;
+    padding-bottom: 70px;
+  }
+
+  header h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .img-banner {
+    /* margin-top: 20px; */
+    display: none;
+  }
+  /* Akhir Header */
+
+  .btn-global {
+    display: table;
+    margin: left;
+  }
+
+  /* Blog */
+  .card-blog {
+    margin-bottom: 20px;
+  }
+
+  .btn-blog {
+    display: table;
+    margin: left;
+  }
+  /* Akhir Blog */
+
+  /* Certificated */
+  .card-certificated {
+    margin-bottom: 30px !important;
+  }
+  /* Akhir Certificated */
+
+  /* Contact */
+  .card-contact {
+    margin-bottom: 30px !important;
+  }
+  /* Akhir Contact */
+
+  .footer-text {
+    text-align: center;
+  }
+
+  .wrapper .button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}
